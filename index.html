@@ -30,7 +30,7 @@
         <div class="card">
             <div class="card-body">
               <img src="./RummyDen_logo.png" alt="" class="logo">
-              <a href="./RummyDen.apk" target="_blank" class="btn btn-success float-right mt-2" download>Install &emsp;<i class="fas fa-download"></i>
+              <a  rel="ext" href="./RummyDen.apk" class="btn btn-success float-right mt-2" download>Install &emsp;<i class="fas fa-download"></i>
               </a>
             </div>
         </div>
@@ -58,6 +58,12 @@
                 allowfullscreen></iframe>
             </div>
         </div>
+    <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $(document).find('a[rel="ext"]').attr("target", "_blank");
+        });
+    </script>
     <!-- MDB -->
     <script
     type="text/javascript"
