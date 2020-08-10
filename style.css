@@ -1,0 +1,18 @@
+.logo{
+    height: 5rem;
+}
+.guide {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: .024em;
+    font-family: "SF Pro Display","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+    font-size: 13px;
+    line-height: 1.38462;
+    font-weight: 400;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Text","SF Pro Icons","Apple WebExp Icons Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+}
